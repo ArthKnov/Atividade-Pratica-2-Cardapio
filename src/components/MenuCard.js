@@ -1,4 +1,5 @@
-import { View, StyleSheet, Image, useWindowDimensions } from "react-native";
+import { View, StyleSheet, useWindowDimensions } from "react-native";
+import { Image } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import { Text, Surface, Chip } from "react-native-paper";
 import { font } from "../theme/fonts";
@@ -14,7 +15,8 @@ export function MenuCard({ item, accent, tag }) {
         <Image
           source={{ uri: item.imagem }}
           style={[styles.img, { height: imgH }]}
-          resizeMode="cover"
+          contentFit="cover"
+          transition={180}
         />
         <LinearGradient
           colors={["transparent", "rgba(5,4,8,0.92)"]}

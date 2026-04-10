@@ -6,7 +6,7 @@ export const burgers = [
     preco: "R$ 32,90",
     destaque: "Mais pedido",
     imagem:
-      "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=85",
+      "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=85&auto=format&fit=crop",
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ export const burgers = [
     preco: "R$ 36,90",
     destaque: null,
     imagem:
-      "https://images.unsplash.com/photo-1553979459-d222affa0be1?w=800&q=85",
+      "https://images.unsplash.com/photo-1572802410224-296f0d33eeb2?w=800&q=85&auto=format&fit=crop",
   },
   {
     id: "3",
@@ -24,7 +24,7 @@ export const burgers = [
     preco: "R$ 29,90",
     destaque: null,
     imagem:
-      "https://images.unsplash.com/photo-1606755962773-d324e166a35b?w=800&q=85",
+      "https://images.unsplash.com/photo-1626084254629-22ced5c0dec4?w=800&q=85&auto=format&fit=crop",
   },
   {
     id: "4",
@@ -33,6 +33,6 @@ export const burgers = [
     preco: "R$ 31,50",
     destaque: "Novo",
     imagem:
-      "https://images.unsplash.com/photo-1520072959219-c59504a5afd6?w=800&q=85",
+      "https://images.unsplash.com/photo-1594215448884-417aa7d0baf8?w=800&q=85&auto=format&fit=crop",
   },
 ];

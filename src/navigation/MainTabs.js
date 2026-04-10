@@ -4,10 +4,10 @@ import { BlurView } from "expo-blur";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-import Tela1 from "../screens/tela1";
-import Tela2 from "../screens/tela2";
-import Tela3 from "../screens/tela3";
-import Tela4 from "../screens/tela4";
+import Tela1 from "../telas/tela1";
+import Tela2 from "../telas/tela2";
+import Tela3 from "../telas/tela3";
+import Tela4 from "../telas/tela4";
 
 const Tab = createBottomTabNavigator();
 
